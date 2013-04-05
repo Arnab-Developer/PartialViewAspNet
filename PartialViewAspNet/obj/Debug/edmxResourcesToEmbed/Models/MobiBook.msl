@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MobiBookModelStoreContainer" CdmEntityContainer="MobiBookEntities">
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="MobiBookModel.Product">
+        <MappingFragment StoreEntitySet="tbl_Search_Product">
+          <ScalarProperty Name="AllYouCanRead" ColumnName="IsAllYouCanRead" />
+          <ScalarProperty Name="PK_SearchId" ColumnName="PK_SearchId" />
+          <ScalarProperty Name="PK_ProductID" ColumnName="PK_ProductID" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+          <ScalarProperty Name="PublishDate" ColumnName="PublishDate" />
+          <ScalarProperty Name="MappedDate" ColumnName="MappedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

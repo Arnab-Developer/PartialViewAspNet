@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MobiBookModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MobiBookModelStoreContainer">
+    <EntitySet Name="tbl_Search_Product" EntityType="MobiBookModel.Store.tbl_Search_Product" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="tbl_Search_Product">
+    <Key>
+      <PropertyRef Name="PK_SearchId" />
+    </Key>
+    <Property Name="PK_SearchId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PK_ProductID" Type="int" />
+    <Property Name="ProductCode" Type="nvarchar" MaxLength="200" />
+    <Property Name="Title" Type="nvarchar" MaxLength="400" />
+    <Property Name="Description" Type="nvarchar" />
+    <Property Name="BookProvider" Type="int" />
+    <Property Name="Author" Type="nvarchar" />
+    <Property Name="WebImage" Type="varchar" MaxLength="400" />
+    <Property Name="WapImage" Type="varchar" MaxLength="400" />
+    <Property Name="ZoomWebImage" Type="varchar" MaxLength="400" />
+    <Property Name="ZoomWapImage" Type="varchar" MaxLength="400" />
+    <Property Name="ProductType" Type="int" />
+    <Property Name="IsAdultContent" Type="bit" />
+    <Property Name="LanguageID" Type="int" />
+    <Property Name="Fk_GenreID" Type="int" />
+    <Property Name="IsAllYouCanRead" Type="bit" Nullable="false" />
+    <Property Name="IsRental" Type="bit" />
+    <Property Name="Isr" Type="bit" />
+    <Property Name="IsFreeGiveAway" Type="bit" />
+    <Property Name="IsBSVFree" Type="bit" />
+    <Property Name="IsShared" Type="bit" />
+    <Property Name="Keywords" Type="nvarchar" MaxLength="500" />
+    <Property Name="Price" Type="money" />
+    <Property Name="Point" Type="int" />
+    <Property Name="ConvertedPoints" Type="int" />
+    <Property Name="PublishDate" Type="datetime" />
+    <Property Name="MappedDate" Type="datetime" />
+    <Property Name="SupportedDevice" Type="varchar" MaxLength="50" />
+    <Property Name="HasProductIdentifier" Type="bit" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="DefaultStoryID" Type="int" />
+    <Property Name="AvgRating" Type="int" />
+    <Property Name="PurchaseCount" Type="int" />
+    <Property Name="StoryCount" Type="int" />
+    <Property Name="HasStorySample" Type="bit" />
+    <Property Name="IsBitway" Type="bit" />
+  </EntityType>
+</Schema>

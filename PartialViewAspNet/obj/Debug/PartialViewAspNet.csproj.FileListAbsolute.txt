@@ -1,0 +1,5 @@
+c:\users\arnab.roychowdhury\documents\visual studio 2010\Projects\PartialViewAspNet\PartialViewAspNet\bin\PartialViewAspNet.dll
+c:\users\arnab.roychowdhury\documents\visual studio 2010\Projects\PartialViewAspNet\PartialViewAspNet\bin\PartialViewAspNet.pdb
+c:\users\arnab.roychowdhury\documents\visual studio 2010\Projects\PartialViewAspNet\PartialViewAspNet\obj\Debug\ResolveAssemblyReference.cache
+c:\users\arnab.roychowdhury\documents\visual studio 2010\Projects\PartialViewAspNet\PartialViewAspNet\obj\Debug\PartialViewAspNet.dll
+c:\users\arnab.roychowdhury\documents\visual studio 2010\Projects\PartialViewAspNet\PartialViewAspNet\obj\Debug\PartialViewAspNet.pdb

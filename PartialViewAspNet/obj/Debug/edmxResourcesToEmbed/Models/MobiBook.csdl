@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MobiBookModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MobiBookEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Products" EntityType="MobiBookModel.Product" />
+  </EntityContainer>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="PK_SearchId" />
+    </Key>
+    <Property Name="PK_SearchId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PK_ProductID" Type="Int32" />
+    <Property Name="ProductCode" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Title" Type="String" MaxLength="400" Unicode="true" FixedLength="false" />
+    <Property Name="Author" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Point" Type="Int32" />
+    <Property Name="PublishDate" Type="DateTime" />
+    <Property Name="MappedDate" Type="DateTime" />
+    <Property Type="Boolean" Name="AllYouCanRead" Nullable="false" />
+  </EntityType>
+</Schema>
