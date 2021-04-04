@@ -1,6 +1,6 @@
 # Partial view and AJAX call
 
-Demo with partial view and AJAX call using ASP.NET MVC
+Demo with partial view and AJAX call using ASP.NET MVC.
 
 Index action method of Product controller returns partial view. 
 ```csharp
